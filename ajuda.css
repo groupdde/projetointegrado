@@ -5,8 +5,6 @@
     margin: 0;
 }
 
-
-
 body {
     background-color: #2f2b62;
     display: flex;
@@ -44,21 +42,22 @@ img {
 
 nav a {
     text-decoration: none;
-    color: #e0c10d;
+    color: white;
     font-size: 30px;
     font-family: 'Roboto Slab', serif;
     display: flex;
-    background-color: #2f2b62;
-    width: 300px;
-    height: 100px;
     border-radius: 0%;
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
+    flex-grow: 1;
+  word-break: break-word;
+  text-align: center;
 }
 
+
 nav a:hover {
-    color: #725b17;
+    color: #2f2b62;
 }
 
 
