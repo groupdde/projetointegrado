@@ -5,49 +5,208 @@
     margin: 0;
 }
 
-html {
-    border: 2px solid #e3b42c;
+img {
+    width: 460px;
+    border-radius: 50%;
+}
+
+header {
+    background-color: #e3b42c;
+}
+
+.titulo h1 {
+    background-color: #e3b42c;
+    color: #2f2b62;
+    height: 88px;
+    font-size: 70px;
+    font-family: 'Playfair Display', serif;
+    margin-left: 10px;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    background-color: #2f2b62;
+    flex-direction: column;
+}
+
+/* Defina a imagem que você deseja animar */
+#imagemMovimento {
+    position: relative;
+    animation: moverCimaBaixo 1.5s infinite alternate;
+}
+
+/* Defina a animação */
+@keyframes moverCimaBaixo {
+    0% {
+        top: 0;
+    }
+
+    100% {
+        top: 30px;
+    }
+}
+
+
+.logo h1 {
+    height: auto;
+    color: #e3b42c;
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+/*login*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+}
+
+html,
+body {
+    height: 100%;
 }
 
 body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: rgb(227, 180, 44);
+}
+
+.page {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 50%;
+    height: 844px;
     background-color: #2f2b62;
 }
 
-a {
-    color: white;
-}
-
-h1 {
-    font-size: 50px;
-    color: white;
-    font-weight: 100;
-}
-
-nav {
-    height: 100vh;
-    width: 20vw;
-    background-color: white;
+.formLogin {
+    display: flex;
     flex-direction: column;
-    display: flex;
-    align-items: center;
-    border-right: 3px solid #e3b42c;
-    justify-content: space-evenly;
+    background-color: #2f2b62;
+    border-radius: 7px;
+    padding: 40px;
+    box-shadow: 1px 10px 40px 10px rgb(227, 180, 44);
+    gap: 5px;
+    width: 500px;
 }
 
-img {
-    width: 120px;
-    height: 120px;
+.areaLogin img {
+    width: 420px;
 }
 
-nav a {
-    text-decoration: none;
-    color: #2f2b62;
-    font-size: 25px;
-    font-family: 'Roboto Slab', serif;
-    display: flex;
+.formLogin h1 {
+    padding: 0px;
+    margin-top: 60px;
+    font-weight: 500;
+    font-size: 2.3em;
 }
 
-nav a:hover {
+.formLogin p {
+    display: inline-block;
+    font-size: 14px;
+    color: #636060;
+    margin-bottom: 25px;
+}
+
+.formLogin input {
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none;
+}
+
+
+.formLogin input:focus {
+    border: 1px solid #e3b42c;
+    ;
+}
+
+.formLogin label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.formLogin a {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 13px;
+    color: #555;
+    transition: all linear 160ms;
+}
+
+.formLogin a:hover {
     color: #e3b42c;
+    ;
 }
 
+.btn {
+    background-color: #e3b42c;
+    ;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: none !important;
+    transition: all linear 160ms;
+    cursor: pointer;
+    margin: 0 !important;
+
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background-color: #c79d1e;
+    ;
+
+}
+
+footer {
+    background-color: #e3b42c;
+    height: 30px;
+}
+
+@media (max-width: 1500px) {
+
+    form.formLogin {
+        position: relative;
+        top: -0px;
+        width: auto;
+        height: auto;
+    }
+
+    .page h1 {
+        margin: auto;
+    }
+
+    .logo img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .logo h1 {
+        margin-top: -200px;
+        margin-left: 40px;
+        padding-bottom: 50px;
+    }
+
+
+
+
+}

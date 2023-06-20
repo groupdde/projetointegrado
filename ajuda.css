@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body {
+    background-color: #2f2b62;
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    font-weight: 100;
+}
+
+nav {
+    height: 100vh;
+    width: 20vw;
+    background-color: rgb(236, 199, 34);
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #e0c10d;
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    background-color: #2f2b62;
+    width: 300px;
+    height: 100px;
+    border-radius: 0%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+nav a:hover {
+    color: #725b17;
+}
+
+
+main {
+    padding: 50px;
+}
+
+
+main h1 {
+    margin-bottom: 50px;
+    color: #e0c10d;
+
+}
+
+main li {
+
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+
+}
+
+div#dicas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 380px;
+}
+
+div#titulo {
+    font-size: 50px;
+    margin-bottom: 80px;
+    color: #e0c10d;
+}
+
+
+div.content {
+    margin-top: 20px;
+
+}
+
+div.content p {
+    margin-top: 20px;
+    color: #fdfdfd;
+    font-size: 20px;
+}
+
+
+ul li {
+    color: #e0c10d;
+}
+
+div#redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly
+}
+
+div#redes img {
+    border-radius: 20px;
+}
