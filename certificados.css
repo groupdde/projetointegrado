@@ -24,7 +24,7 @@ h1 {
 nav {
     height: 100vh;
     width: 20vw;
-    background-color: rgb(236, 199, 34);
+    background-color: #e0c10d;
     flex-direction: column;
     display: flex;
     align-items: center;
