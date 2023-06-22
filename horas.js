@@ -1,22 +1,22 @@
-// Contador horas
 document.addEventListener("DOMContentLoaded", function () {
     var counterElement = document.getElementById("hours-counter");
+    var maxImages = document.getElementsByClassName("slider")[0].getElementsByTagName("div").length;
+    var maxHours = maxImages * 50; // Limite máximo baseado no número de imagens
 
-    // Define o número inicial de horas
     var initialHours = 0;
 
-    // Atualiza o contador de horas
     function updateCounter() {
         initialHours++;
-        counterElement.textContent = initialHours + " horas";
+
+        if (initialHours <= maxHours) {
+            counterElement.textContent = initialHours + " horas";
+        } else {
+            counterElement.textContent = maxHours + " horas (limite máximo alcançado)";
+        }
     }
 
-    // Chama a função updateCounter a cada segundo
-    setInterval(updateCounter, 1000);
+    setInterval(updateCounter, 50);
 });
-
-// Carrossel
-
 
 var slideIndex = 0;
 showSlides();
@@ -37,6 +37,5 @@ function showSlides() {
 
     slides[slideIndex - 1].style.display = "block";
 
-    setTimeout(showSlides, 2000); // Altere aqui para ajustar a duração de cada slide
+    setTimeout(showSlides, 2000);
 }
-
