@@ -81,7 +81,7 @@ img.certificadoimagem {
   border: solid 10px #e0c10d;
   transition: transform 0.3s ease;
   cursor: pointer;
-  border-radius: 2%;
+  border-radius: 10px;
 }
 
 .certificadoimagem:hover {
@@ -94,7 +94,7 @@ button#vermais {
   width: 9vw;
   height: 8vh;
   margin-left: 43vw;
-  border-radius: 5%;
+  border-radius: 5px;
   color: black;
   background-color: #e0c10d;
   border: 3px solid white;

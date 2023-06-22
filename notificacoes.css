@@ -50,3 +50,66 @@ nav a:hover {
   background-color: #2f2b62;
   transition: 0.4s;
 }
+
+main {
+  padding: 50px;
+}
+
+div#notificacoes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 30vw;
+}
+
+div#titulonotificacoes {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #e0c10d;
+}
+
+div.todasnotificacoes {
+  width: 52vw;
+  height: 20vh;
+  background-color: white;
+  border: 5px solid #e0c10d;
+  border-radius: 15px;
+  display: inline-flex;
+  align-items: center;
+  padding: 10px;
+  margin: 13px;
+  transition: box-shadow 0.2s ease;
+}
+
+div.esquerda {
+  margin-right: auto;
+  max-width: 35vw;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+div.direita {
+  margin-left: auto;
+  max-width: 17vw;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: right;
+}
+
+span.analise {
+  color: #e0c10d;
+}
+
+span.recusado {
+  color: red;
+}
+
+span.aceito {
+  color: green;
+}
+
+.todasnotificacoes:hover {
+  box-shadow: 0 0 10px 5px #fff;
+}

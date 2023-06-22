@@ -41,7 +41,6 @@ header {
     height: 30vw;
 }
 
-/* Defina a animação */
 @keyframes moverCimaBaixo {
     0% {
         top: 0;
@@ -64,8 +63,6 @@ header {
     color: #e3b42c;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
-/*login*/
 
 .container {
     display: flex;
@@ -182,7 +179,13 @@ body {
 
 footer {
     background-color: #e3b42c;
-    height: 30px;
+    height: 60px;
+    color: black;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 @media (max-width: 1500px) {

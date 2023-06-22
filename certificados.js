@@ -5,7 +5,7 @@ function verMaisCertificados() {
   if (maisCertificadosDiv.classList.contains("maiscertificadosescondido")) {
     maisCertificadosDiv.classList.remove("maiscertificadosescondido");
     maisCertificadosDiv.classList.add("maiscertificadosvisivel");
-    verMaisButton.textContent = "Esconder certificados";
+    verMaisButton.textContent = "Ocultar certificados";
   } else {
     maisCertificadosDiv.classList.remove("maiscertificadosvisivel");
     maisCertificadosDiv.classList.add("maiscertificadosescondido");
