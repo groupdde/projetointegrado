@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2f2b62;
+}
+
+
+h1 {
+    color: #e3b42c;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+form {
+    display: grid;
+    grid-row-gap: 10px;
+}
+
+label {
+    color: #e3b42c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+input {
+    height: 20px;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+div.emailPreference {
+    display: flex;
+    justify-content: center;
+}
+
+div.smsPreference {
+    display: flex;
+    justify-content: center;
+}
+
+div.termos {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+input#nascimento {
+    padding-left: 42%;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+}
+
+button {
+    width: 450px;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #e3b42c;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    color: #2f2b62;
+    margin: 40px;
+    border: 1px solid #141229;
+}
+
+button:hover {
+    background-color: #141229;
+    color: #e3b42c;
+    border: 1px solid #e3b42c;
+
+}

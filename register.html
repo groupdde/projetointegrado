@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registre-se</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Registre-se</h1>
+        </div>
+        <form action="index.html">
+            <label for="fullName">Nome completo:</label>
+            <input type="text" id="nomeCompleto" required>
+
+            <label for="curso">Curso:</label>
+            <input type="text" id="curso" required>
+
+            <label for="email">Endereço de e-mail:</label>
+            <input type="email" id="email" required>
+
+            <label for="password">Senha:</label>
+            <input type="password" id="senha" required>
+
+            <label for="confirmPassword">Confirmar senha:</label>
+            <input type="password" id="confirmarSenha" required>
+
+            <label for="dob">Data de nascimento:</label>
+            <input type="date" id="nascimento" required>
+
+            <label for="phone">Telefone:</label>
+            <input type="tel" id="celular">
+
+            <label>Preferências de comunicação:</label>
+            <div class="emailPreference">
+                <input type="checkbox">
+                <label for="emailPreference">Desejo receber atualizações por e-mail</label>
+            </div>
+
+            <div class="smsPreference">
+                <input type="checkbox" id="smsPreference">
+                <label for="smsPreference">Desejo receber notificações por SMS</label>
+            </div>
+
+            <div class="termos">
+                <input type="checkbox" id="terms" required>
+                <label for="terms">Termos e Condições:</label>
+            </div>
+
+            <button type="submit"><a href="index.html">Registrar</a></button>
+
+        </form>
+    </div>
+
+</body>
+
+</html>

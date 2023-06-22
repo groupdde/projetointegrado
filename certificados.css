@@ -9,10 +9,6 @@ body {
   background-color: #2f2b62;
 }
 
-a {
-  color: white;
-}
-
 h1 {
   font-size: 50px;
   color: white;
@@ -22,7 +18,7 @@ h1 {
 nav {
   height: 100vh;
   width: 20vw;
-  background-color: #e0c10d;
+  background-color: #e3b42c;
   flex-direction: column;
   display: flex;
   align-items: center;
@@ -39,20 +35,22 @@ img {
 
 nav a {
   text-decoration: none;
-  color: white;
+  color: #2f2b62;
   font-size: 30px;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   display: flex;
   border-radius: 0%;
   justify-content: center;
   align-items: center;
-  margin-bottom: 20px;
   flex-grow: 1;
   word-break: break-word;
   text-align: center;
+  height: 100vh;
 }
 
 nav a:hover {
-  color: #2f2b62;
+  color: #e3b42c;
+  width: 100%;
+  background-color: #2f2b62;
   transition: 0.4s;
 }
