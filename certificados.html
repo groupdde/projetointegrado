@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="certificados.css">
-    <title>Document</title>
+    <title>Certificado Digital UVV</title>
 </head>
 
 <body>
@@ -15,10 +15,47 @@
         <a href="certificados.html">Meus Certificados</a>
         <a href="envios.html">Envio de Certificados</a>
         <a href="horas.html">Horas</a>
-        <a href="mensagens.html">Mensagens</a>
+        <a href="notificacoes.html">Notificações</a>
         <a href="ajuda.html">Ajuda</a>
         <a href="index.html">Sair</a>
     </nav>
+
+    <main>
+        <div id="meuscertificados">
+            <div id="titulocertificados">
+                <h1>Meus Certificados</h1>
+
+                <p>Acesse aqui os seus certificados.</p>
+            </div>
+
+            <div id="minhaDiv" class="escondida">
+                <img src="imagens/certificado1.PNG" alt="Certificao 1" id="imagemdiv">
+              </div>
+
+            <div class="certificados">
+                <a href="#" class="certificadolink" onclick="exibirDiv()">
+                  <img class="certificadoimagem" src="imagens/certificado1.PNG" alt="Certificado 1">
+                </a>
+                <a href="#" class="certificadolink" onclick="exibirDiv()">
+                  <img class="certificadoimagem" src="imagens/certificado1.PNG" alt="Certificado 2">
+                </a>
+              </div>
+              
+              <div id="maisCertificados" class="mais-certificados-hidden">
+                <a href="#" class="certificadolink" onclick="exibirDiv()">
+                  <img class="certificadoimagem" src="imagens/certificado1.PNG" alt="Certificado 3">
+                </a>
+                <a href="#" class="certificadolink" onclick="exibirDiv()">
+                  <img class="certificadoimagem" src="imagens/certificado1.PNG" alt="Certificado 4">
+                </a>
+              </div>
+              
+              <button id="vermais" onclick="verMaisCertificados()">Visualizar mais certificados</button>
+              
+        </div>
+    </main>
+
+    <script src="certificados.js"></script>
 </body>
 
 </html>

@@ -15,14 +15,6 @@ a {
     color: white;
 }
 
-h1 {
-    display: flex;
-    margin-left: 25vw;
-    font-size: 50px;
-    color: white;
-    font-weight: 100;
-}
-
 nav {
     height: 100vh;
     width: 20vw;
@@ -75,7 +67,6 @@ main h1 {
 }
 
 main li {
-
     color: white;
     font-size: 30px;
     margin: 10px;
@@ -86,13 +77,19 @@ div#dicas {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: 25vw;
+    margin-left: 30vw;
 }
 
-div#titulo {
+div#tituloajuda {
     font-size: 50px;
     margin-bottom: 80px;
     color: #e0c10d;
+}
+
+h1 {
+    display: flex;
+    font-size: 50px;
+    font-weight: 100;
 }
 
 
