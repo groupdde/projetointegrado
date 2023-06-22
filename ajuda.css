@@ -16,6 +16,8 @@ a {
 }
 
 h1 {
+    display: flex;
+    margin-left: 25vw;
     font-size: 50px;
     color: white;
     font-weight: 100;
@@ -51,8 +53,8 @@ nav a {
     align-items: center;
     margin-bottom: 20px;
     flex-grow: 1;
-  word-break: break-word;
-  text-align: center;
+    word-break: break-word;
+    text-align: center;
 }
 
 
@@ -84,7 +86,7 @@ div#dicas {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: 380px;
+    margin-left: 25vw;
 }
 
 div#titulo {

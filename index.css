@@ -21,8 +21,8 @@ header {
     color: white;
     height: 88px;
     font-size: 70px;
-    font-family: 'Playfair Display', serif;
-    margin-left: 5.5vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 2vw;
 }
 
 .logo {
@@ -55,14 +55,14 @@ header {
 .logo h1 {
     height: auto;
     color: #e3b42c;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
 .logo h1 {
     height: auto;
     color: #e3b42c;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /*login*/
@@ -73,7 +73,8 @@ header {
     height: auto;
 }
 
-html, body {
+html,
+body {
     height: 100%;
 }
 
