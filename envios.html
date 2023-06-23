@@ -5,21 +5,52 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="certificados.css">
+    <link rel="stylesheet" href="envios.css">
     <title>Certificado DIgital UVV</title>
 </head>
 
 <body>
-    <nav>
-        <img src="https://disciplinas.uvv.br/assets/images/uvv-brasao.png" alt="uvvlogo">
-        <a href="certificados.html">Meus Certificados</a>
-        <a href="envios.html">Envio de Certificados</a>
-        <a href="horas.html">Horas</a>
-        <a href="notificacoes.html">Notificações</a>
-        <a href="ajuda.html">Ajuda</a>
-        <a href="index.html">Sair</a>
-    </nav>
+    <div id="container">
+        <div id="hub">
+            <nav>
+                <img src="https://disciplinas.uvv.br/assets/images/uvv-brasao.png" alt="uvvlogo">
+                <a href="certificados.html">Meus Certificados</a>
+                <a href="envios.html">Envio de Certificados</a>
+                <a href="horas.html">Horas</a>
+                <a href="notificacoes.html">Notificações</a>
+                <a href="ajuda.html">Ajuda</a>
+                <a href="index.html">Sair</a>
+            </nav>
+        </div>
+        <div id="envios">
 
+            <h1>Envio de Certificados</h1>
+
+            <div class="barra">
+                <form id="certificates-form" enctype="multipart/form-data">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+            </div>
+            <div class="barra">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="barra">
+                <label for="certificate">Certificado:</label>
+                <input type="file" id="certificate" name="certificate" accept="image/*" required>
+            </div>
+            <div class="barra">
+                <input type="submit" value="Enviar Certificado">
+                </form>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="envios.js"></script>
 </body>
+
+</html>
 
 </html>
