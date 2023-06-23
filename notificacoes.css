@@ -63,12 +63,14 @@ div#notificacoes {
 }
 
 div#titulonotificacoes {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 30px;
   margin-bottom: 20px;
   color: #e0c10d;
 }
 
 div.todasnotificacoes {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   width: 52vw;
   height: 20vh;
   background-color: white;
@@ -82,6 +84,7 @@ div.todasnotificacoes {
 }
 
 div.esquerda {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   margin-right: auto;
   max-width: 35vw;
   display: flex;
@@ -90,6 +93,7 @@ div.esquerda {
 }
 
 div.direita {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   margin-left: auto;
   max-width: 17vw;
   display: flex;
@@ -99,14 +103,17 @@ div.direita {
 }
 
 span.analise {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: #e0c10d;
 }
 
 span.recusado {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: red;
 }
 
 span.aceito {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: green;
 }
 
