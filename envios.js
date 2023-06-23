@@ -11,20 +11,29 @@ document.addEventListener('DOMContentLoaded', function () {
         const name = document.getElementById('name').value;
         const email = document.getElementById('email').value;
 
-        // Cria um elemento de mensagem de sucesso
-        const successMessage = document.createElement('div');
-        successMessage.classList.add('success-message');
-        successMessage.textContent = 'O certificado foi enviado com sucesso para ' + email;
+        // Exibe a mensagem de carregamento
+        const loadingMessage = document.createElement('div');
+        loadingMessage.textContent = 'Enviando...';
+        form.insertAdjacentElement('beforebegin', loadingMessage);
 
-        // Insere a mensagem acima do formulário
-        form.insertAdjacentElement('beforebegin', successMessage);
-
-        // Limpa os campos do formulário após o envio bem-sucedido
-        form.reset();
-
-        // Remove a mensagem de sucesso após 5 segundos
+        // Define um atraso de 2 segundos antes do envio
         setTimeout(function () {
-            successMessage.remove();
-        }, 5000);
+            // Remove a mensagem de carregamento
+            loadingMessage.remove();
+
+            // Simula o envio do certificado
+            const successMessage = document.createElement('div');
+            successMessage.classList.add('success-message');
+            successMessage.textContent = 'O certificado foi enviado com sucesso para ' + email;
+            form.insertAdjacentElement('beforebegin', successMessage);
+
+            // Limpa os campos do formulário após o envio bem-sucedido
+            form.reset();
+
+            // Remove a mensagem de sucesso após 5 segundos
+            setTimeout(function () {
+                successMessage.remove();
+            }, 5000);
+        }, 2000);
     });
 });
