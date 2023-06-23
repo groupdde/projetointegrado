@@ -15,7 +15,6 @@ body {
 }
 
 h1 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 50px;
     font-weight: 100;
 }
@@ -61,7 +60,6 @@ nav a:hover {
 }
 
 div#horas {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     width: 80%;
     display: flex;
     justify-content: space-between;
